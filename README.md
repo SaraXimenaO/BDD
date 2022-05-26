@@ -1,6 +1,6 @@
 # Ejercicio BDD
 
-#Autores: 
+# Autores: 
 - Sara Ximena Ortiz Reyes
 - Endi Romero
          
@@ -21,10 +21,13 @@ Simulador de cajero automático
 2. Descargar o clonar el proyecto del respositorio
 3. Ejecutar proyecto
 
-# Arquitectura
+
+# Historias de usuario
+
+
 
 
 # Conclusiones
 
-1. Aprendimos a crear y configurar Api Gateway en .net con la libreria Ocelot.
-2. Nos quedó mas clara la arquitectura por microservicios mediante la implementación y el desarrollo del ejercicio.
+1. Aprendimos a crear y configurar las BDD para un proyecto hecho en .net
+2. Nos quedó mas claro el funcionamiento de las BDD y su utilización
