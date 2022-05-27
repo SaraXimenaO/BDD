@@ -32,27 +32,27 @@ private So_that Poder_obtener_dinero_cuando_el_banco_este_cerrado;
 
 
 - Escenario cuenta con fondos
-private class La_Cuenta_tiene_fondos_suficientes_Para_Retiros : Scenario {
-private Given el_saldo_de_la_cuenta_es_100;
-private Given la_tarjeta_es_Valida;
-private Given el_cajeroautomatico_contiene_suficiente_dinero;
-private When el_titular_de_la_cuenta_solicita_20;
-private Then el_cajero_automatico_debe_entregar_20;
-private Then el_saldo_de_la_cuenta_debe_ser_80;
-private Then entregar_tarjeta;
+- class La_Cuenta_tiene_fondos_suficientes_Para_Retiros : Scenario {
+- Given el_saldo_de_la_cuenta_es_100;
+- Given la_tarjeta_es_Valida;
+- Given el_cajeroautomatico_contiene_suficiente_dinero;
+- When el_titular_de_la_cuenta_solicita_20;
+- Then el_cajero_automatico_debe_entregar_20;
+- Then el_saldo_de_la_cuenta_debe_ser_80;
+- Then entregar_tarjeta;
 }
 
 
 - Escenario cuenta sin fondos
-private class Fondos_insuficientes_En_La_Cuenta : Scenario {
-private Given el_saldo_de_la_cuenta_es_10;
-private Given la_tarjeta_es_Valida;
-private Given el_cajeroautomatico_contiene_suficiente_dinero;
-private When el_titular_de_la_cuenta_solicita_20;
-private Then el_cajero_automatico_no_debe_entregar_ningun_dinero;
-private Then el_cajero_automatico_debe_decir_que_hay_fondos_insuficientes;
-private Then el_saldo_de_la_cuenta_debe_ser_10;
-private Then entregar_tarjeta;
+- class Fondos_insuficientes_En_La_Cuenta : Scenario {
+- Given el_saldo_de_la_cuenta_es_10;
+- Given la_tarjeta_es_Valida;
+- Given el_cajeroautomatico_contiene_suficiente_dinero;
+- When el_titular_de_la_cuenta_solicita_20;
+- Then el_cajero_automatico_no_debe_entregar_ningun_dinero;
+- Then el_cajero_automatico_debe_decir_que_hay_fondos_insuficientes;
+- Then el_saldo_de_la_cuenta_debe_ser_10;
+- Then entregar_tarjeta;
 }
 
 
