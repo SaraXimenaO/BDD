@@ -1,0 +1,9 @@
+D:\repos\source\ProyectoFinal_BDD\BDD_ProyectoFinal\BDD_ProyectoFinal\BDD_ProyectoFinal\bin\Debug\lib\Be.Corebvba.Aubergine.ConsoleRunner.exe
+D:\repos\source\ProyectoFinal_BDD\BDD_ProyectoFinal\BDD_ProyectoFinal\BDD_ProyectoFinal\bin\Debug\lib\Be.Corebvba.Aubergine.dll
+D:\repos\source\ProyectoFinal_BDD\BDD_ProyectoFinal\BDD_ProyectoFinal\BDD_ProyectoFinal\bin\Debug\BDD_ProyectoFinal.dll
+D:\repos\source\ProyectoFinal_BDD\BDD_ProyectoFinal\BDD_ProyectoFinal\BDD_ProyectoFinal\bin\Debug\BDD_ProyectoFinal.pdb
+D:\repos\source\ProyectoFinal_BDD\BDD_ProyectoFinal\BDD_ProyectoFinal\BDD_ProyectoFinal\bin\Debug\Be.Corebvba.Aubergine.dll
+D:\repos\source\ProyectoFinal_BDD\BDD_ProyectoFinal\BDD_ProyectoFinal\BDD_ProyectoFinal\obj\Debug\BDD_ProyectoFinal.csproj.CoreCompileInputs.cache
+D:\repos\source\ProyectoFinal_BDD\BDD_ProyectoFinal\BDD_ProyectoFinal\BDD_ProyectoFinal\obj\Debug\BDD_ProyectoFinal.csproj.CopyComplete
+D:\repos\source\ProyectoFinal_BDD\BDD_ProyectoFinal\BDD_ProyectoFinal\BDD_ProyectoFinal\obj\Debug\BDD_ProyectoFinal.dll
+D:\repos\source\ProyectoFinal_BDD\BDD_ProyectoFinal\BDD_ProyectoFinal\BDD_ProyectoFinal\obj\Debug\BDD_ProyectoFinal.pdb

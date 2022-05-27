@@ -1,0 +1,27 @@
+==STORY================================================================
+Titular_Cuenta_retira_efectivo => IMPLEMENTATION ERROR
+========================================================================
+   La_Cuenta_tiene_fondos_suficientes_Para_Retiros => IMPLEMENTATION ERROR
+      Given el_saldo_de_la_cuenta_es_100 => OK
+      Given la_tarjeta_es_Valida => OK
+      Given el_cajeroautomatico_contiene_suficiente_dinero => OK
+      When el_titular_de_la_cuenta_solicita_20 => IMPLEMENTATION ERROR
+       INFO : Referencia a objeto no establecida como instancia de un objeto.
+      Then el_cajero_automatico_debe_entregar_20 => OK
+      Then el_saldo_de_la_cuenta_debe_ser_80 => NOK
+      Then entregar_tarjeta => OK
+   Fondos_insuficientes_En_La_Cuenta => IMPLEMENTATION ERROR
+      Given el_saldo_de_la_cuenta_es_10 => OK
+      Given la_tarjeta_es_Valida => OK
+      Given el_cajeroautomatico_contiene_suficiente_dinero => OK
+      When el_titular_de_la_cuenta_solicita_20 => IMPLEMENTATION ERROR
+       INFO : Referencia a objeto no establecida como instancia de un objeto.
+      Then el_cajero_automatico_no_debe_entregar_ningun_dinero => OK
+      Then el_cajero_automatico_debe_decir_que_hay_fondos_insuficientes => OK
+      Then el_saldo_de_la_cuenta_debe_ser_10 => OK
+      Then entregar_tarjeta => OK
+   La_Tarjeta_Ha_Sido_deshabilitada => OK
+      Given la_tarjeta_es_Invalida => OK
+      When el_titular_de_la_cuenta_solicita_20 => OK
+      Then el_cajero_automatico_debe_retener_la_tarjeta => OK
+      Then el_cajero_automatico_debe_decir_que_la_tarjeta_ha_sido_retenida => OK
