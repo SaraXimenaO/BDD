@@ -6,20 +6,22 @@
          
 # Herramientas
 
-- Aplicación .Net 3.5
-- Visual Studio
+- Framework .Net 3.5
+- Visual Studio 2017
 - Be.Corebvba.Aubergine.dll 1.0.0.0
 - Gherkin
 
 
 # Introducción
-Simulador de cajero automático
+Simulador de cajero automático con escenarios parauna historia de usuario. retirar dinero con saldo y sin saldo y tarjeta invalida
 
 # Instalación 
 
 1. instalar SDK Net 3.5
-2. Descargar o clonar el proyecto del respositorio
-3. Ejecutar proyecto
+2. visual studio 2017
+3. Descargar o clonar el proyecto del respositorio
+4. Ejecutar proyecto
+5. el analisis final se genera al momento de compilarla solución
 
 
 # Historia de usuario
